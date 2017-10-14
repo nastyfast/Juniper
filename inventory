@@ -1,1 +1,5 @@
+[firewall]
 srx210 ansible_ssh_host=192.168.1.253 ansible_ssh_user=charlie ansible_ssh_pass=Charlie123
+
+[servers]
+HOME-NMS ansible_ssh_host=192.168.1.218 ansible_ssh_user=charlie ansible_ssh_pass=Charlie123
